@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/kitapImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="book"
+            android:src="@drawable/book_1"/>
+
+        <TextView
+            android:id="@+id/kitapAdı"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="21sp"
+            android:textColor="@android:color/black"
+            tools:text="Book Title"/>
+        <TextView
+            android:id="@+id/kitapYazari"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Author"/>
+    </LinearLayout>
+</layout>
